@@ -56,20 +56,3 @@ export const mkHomePage = (frame) => {
 
 
 }
-
-
-
-
-
-
-// console.log('home');
-
-// mkChildElments(frame, ['h1-resName']);
-// mkChildElments(frame, ['div-description']);
-// mkChildElments(frame, ['div-hours']);
-// mkChildElments(frame, ['div-location']);
-
-// mkcont('resName', 'THE GORDINFLAS');
-// mkcont('arg', 'recepi argentina');
-// mkcont('col', 'recepi colombiana');
-// mkcont('hit', 'recepi haitiana');

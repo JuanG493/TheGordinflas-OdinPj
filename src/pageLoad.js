@@ -25,20 +25,8 @@ export const mkChildElments = (elm, list) => {
 
 
 export const mkinnerContent = (classElm, text) => {
-    // console.log('asdfasd');
     let target = document.querySelector(`.${classElm}`);
     target.textContent = text
     return mkinnerContent
-    // console.log(target);
 }
 
-// const mkElemnts = (typeElm, identifier, appendTo = content) => {
-//     let newNodeElment = document.createElement(`${typeElm}`);
-//     newNodeElment.classList.add(`${identifier}`);
-//     appendTo.appendChild(newNodeElment)
-//     return newNodeElment
-// }
-
-// let header = mkElemnts('div', 'header',);
-// let sidebar = mkElemnts('div', 'sidebar',);
-// let mainContent = mkElemnts('div', 'mainContent',);

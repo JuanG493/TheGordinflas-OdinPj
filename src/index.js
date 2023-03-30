@@ -19,7 +19,6 @@ mkcont('menu', 'Menu')
 mkcont('contact', 'Contact')
 
 let logotype = document.querySelector('.logo');
-// console.log(logotype);
 logotype.setAttribute('src', `${logo}`)
 
 
